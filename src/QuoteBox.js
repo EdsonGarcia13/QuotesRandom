@@ -25,10 +25,11 @@ const Quotes = () => {
     return (
         
         <div className='randomQuotes'  style={{color: colorize}}>
-            
-            <h1><i className="fa-solid fa-quote-left"></i>  {quote.quote}</h1>
+            <i className="fa-solid fa-quote-left"></i> 
+            <h1> {quote.quote}</h1>
             <h2>{quote.author}</h2>
-            <div>
+            
+            <div className='click' >
             <Buttonn motor={aleatorio}/>
             </div>
 
