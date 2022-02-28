@@ -28,8 +28,9 @@ const Quotes = () => {
             
             <h1><i className="fa-solid fa-quote-left"></i>  {quote.quote}</h1>
             <h2>{quote.author}</h2>
-            
+            <div>
             <Buttonn motor={aleatorio}/>
+            </div>
 
         </div>
     );

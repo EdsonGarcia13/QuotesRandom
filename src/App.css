@@ -27,7 +27,7 @@
   font-weight: bolder;
 
 }
-.randomQuotes button {
+.randomQuotes div button {
   cursor: pointer;
   margin-top: 0px;
   border-radius: 5px;
