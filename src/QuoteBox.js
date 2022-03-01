@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Buttonn from './buttonn';
 import quotes from './quotes.json';
 
-
-
 const Quotes = () => {
 
     const quotesRandom = quotes[Math.floor(Math.random() * quotes.length)];
@@ -19,11 +17,8 @@ const Quotes = () => {
     
     const colorize = randomColor();
     document.body.style= `background: ${colorize}`;
-    
-
    
     return (
-        
         <div className='randomQuotes'  style={{color: colorize}}>
             <i className="fa-solid fa-quote-left"></i> 
             <h1> {quote.quote}</h1>
