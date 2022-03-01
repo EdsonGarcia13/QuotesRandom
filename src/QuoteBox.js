@@ -11,8 +11,9 @@ const Quotes = () => {
     };
 
     const randomColor = () => {
-        const color = Math.floor(Math.random() * 23345623).toString(16);
-        return '#' + color;
+        const colors = ["#FA6A1C", "#0B54A2", "#9722F8", "#3E046E", "#2FDB0D", "#0FCF8A"];
+        const color = Math.floor(Math.random() * colors.length);
+        return colors[color];
     };
     
     const colorize = randomColor();
