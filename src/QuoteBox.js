@@ -24,7 +24,7 @@ const Quotes = () => {
             <h1> {quote.quote}</h1>
             <h2>{quote.author}</h2>
             
-            <div className='click' >
+            <div>
             <Buttonn motor={aleatorio}/>
             </div>
 
