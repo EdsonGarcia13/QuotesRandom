@@ -37,7 +37,6 @@
 .randomQuotes i{
   font-size: 30px;
   margin-top: 20px;
-  padding-bottom: -20px;
 }
 
 .randomQuotes h1 {
@@ -52,6 +51,20 @@
   padding-right: 30px;
   text-align: right;
   font-size: 20px;
+}
+.button {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  border-radius: 30px;
+  background-color: #fffefe;
+  margin-top: -10px;
+  margin: 0, auto;
+  
+}
+
+.button:hover { /* Green */
+  background-color: #080808;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 600px) {
