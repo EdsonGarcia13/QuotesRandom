@@ -17,7 +17,6 @@
 .randomQuotes {
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
- 
   width: 800px;
   height: 300px;
   border-radius: 10px;
@@ -32,21 +31,21 @@
   border-radius: 5px;
   height: 50px;
   width: 50px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 .randomQuotes i{
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .randomQuotes h1 {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 0;
   text-align: center;
   font-size: 25px;
 }
 .randomQuotes h2 {
-  margin-top: 10px;
   margin-bottom: 0;
   padding-right: 30px;
   text-align: right;
@@ -57,9 +56,9 @@
   transition-duration: 0.4s;
   border-radius: 30px;
   background-color: #fffefe;
-  margin-top: -10px;
   margin: 0, auto;
-  
+  border: none;
+  margin-bottom: 0;
 }
 
 .button:hover { /* Green */
@@ -67,9 +66,10 @@
   color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .randomQuotes {
-    width: 100%;
+    width: 85%;
+    height: 85%;
   }
 }
   
